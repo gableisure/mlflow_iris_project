@@ -1,3 +1,5 @@
 mlruns/
 
 .log
+
+.spec
