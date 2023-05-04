@@ -2,11 +2,6 @@ name: teste_project_github
 
 conda_env: conda.yaml
 
-on:
-  push:
-    branches:
-      - producao
-
 entry_points:
   main:
     command: "python iris_classification.py"
